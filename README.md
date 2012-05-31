@@ -1,6 +1,7 @@
 Add the package to your Packages folder:
 
 ```
+cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
 git clone git@github.com:andrewfiorillo/pubsyntax.git
 ```
 
