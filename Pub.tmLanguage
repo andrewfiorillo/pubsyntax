@@ -81,6 +81,24 @@
 					<key>name</key>
 					<string>string</string>
 				</dict>
+				<dict>
+					<key>match</key>
+					<string>\(|\)</string>
+					<key>name</key>
+					<string>meta.brace.round</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\{|\}</string>
+					<key>name</key>
+					<string>meta.brace.curly</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\+|\-|&lt;|&gt;|\|\||&amp;&amp;|=</string>
+					<key>name</key>
+					<string>keyword.operator</string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -133,6 +151,24 @@
 					<string>'</string>
 					<key>name</key>
 					<string>string</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\(|\)</string>
+					<key>name</key>
+					<string>meta.brace.round</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\{|\}</string>
+					<key>name</key>
+					<string>meta.brace.curly</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\+|\-|&lt;|&gt;|\|\||&amp;&amp;|=</string>
+					<key>name</key>
+					<string>keyword.operator</string>
 				</dict>
 			</array>
 		</dict>
