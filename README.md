@@ -18,3 +18,5 @@ Pub with html:
 Pub: 
 
 <img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/pub.png" />
+
+If you want the colorscheme, you can grab that here: <a href="http://github.com/andrewfiorillo/Cupid">http://github.com/andrewfiorillo/Cupid</a>
