@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[lambda(${1:args}) {${2}}]]></content>
-    <tabTrigger>lambda</tabTrigger>
-    <scope>pub.embedded.html</scope>
-    <description>function</description>
-</snippet>

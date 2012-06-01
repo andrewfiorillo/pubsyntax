@@ -1,13 +1,13 @@
 {
-	"scope": "pub.embedded.html",
+	"scope": "source.pub",
 
 	"completions":
 	[
 		"pub",
 		
-		{ "trigger": "if", "contents": "if(${1}) {${2}}" },
+		{ "trigger": "if", "contents": "if(${1:condition}) {${2}}" },
 		{ "trigger": "else", "contents": "else {${1}}" },
-		{ "trigger": "elif", "contents": "elif {${1}}" },
+		{ "trigger": "elif", "contents": "elif(${1}) {${2}}" },
 		{ "trigger": "for", "contents": "for(${1}) {${2}}" },
 		{ "trigger": "lambda", "contents": "lambda(${1}) {${2}}" },
 		{ "trigger": "include", "contents": "include(${1})" },
