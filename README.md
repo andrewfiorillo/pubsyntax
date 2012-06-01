@@ -4,7 +4,7 @@ Download and add the package to your Packages folder or just clone it there.
 
 ```
 cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-git clone git@github.com:andrewfiorillo/pubsyntax.git
+git clone git://github.com/andrewfiorillo/pubsyntax.git
 ```
 
 ##Screenshots
