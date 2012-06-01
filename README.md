@@ -13,7 +13,7 @@ Autocomplete and commenting:
 
 <img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/features.png" />
 
-Good separation of pub and html:
+Pub and html:
 
 <img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/pubhtml.png" />
 
