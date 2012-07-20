@@ -13,6 +13,10 @@ Autocomplete and commenting:
 
 <img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/features.png" />
 
+Function navigation:
+
+<img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/functionnav.png" />
+
 Pub and html:
 
 <img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/pubhtml.png" />
