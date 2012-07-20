@@ -16,9 +16,27 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(if|else|elif|for|lambda|include|locals|globals|print|load|cload|def|true|false|return)\b</string>
+			<string>\b(if|else|elif|for|include|locals|globals|print|load|cload|def|true|false|return)\b</string>
 			<key>name</key>
 			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>([a-zA-Z_?.$][\w?.$]*)\.([a-zA-Z_?.$][\w?.$]*)\s*(=)\s*(lambda)\s*(\()(.*?)(\))</string>
+			<key>name</key>
+			<string>lambda</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>([a-zA-Z_?$][\w?$]*)\s*(=)\s*(lambda)\s*(\()(.*?)(\))</string>
+			<key>name</key>
+			<string>lambda</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b([a-zA-Z_?.$][\w?.$]*)\s*:\s*\b(lambda)?\s*(\()(.*?)(\))</string>
+			<key>name</key>
+			<string>lambda</string>
 		</dict>
 		<dict>
 			<key>match</key>
