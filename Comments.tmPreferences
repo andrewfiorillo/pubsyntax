@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comments</string>
 	<key>scope</key>
-	<string>pub.embedded.html</string>
+	<string>source.pub</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
