@@ -349,6 +349,18 @@
 							<key>include</key>
 							<string>#numeric-values</string>
 						</dict>
+						<dict>
+							<key>include</key>
+							<string>#pub</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#pubvar</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#pubcomment</string>
+						</dict>
 					</array>
 				</dict>
 			</array>
@@ -1049,18 +1061,6 @@
 					<key>name</key>
 					<string>constant.character.escape.css</string>
 				</dict>
-				<dict>
-					<key>include</key>
-					<string>#pub</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#pubvar</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#pubcomment</string>
-				</dict>
 			</array>
 		</dict>
 		<key>string-single</key>
@@ -1094,18 +1094,6 @@
 					<string>\\.</string>
 					<key>name</key>
 					<string>constant.character.escape.css</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#pub</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#pubvar</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#pubcomment</string>
 				</dict>
 			</array>
 		</dict>
