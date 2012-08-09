@@ -16,7 +16,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(if|else|elif|for|include|locals|globals|print|load|cload|def|true|false|return)\b</string>
+			<string>\b(break|case|cload|continue|def|elif|else|empty|exit|for|globals|if|include|lambda|load|locals|null|print|return|switch|universals|while)\b</string>
 			<key>name</key>
 			<string>keyword</string>
 		</dict>
@@ -38,23 +38,73 @@
 			<key>name</key>
 			<string>lambda</string>
 		</dict>
+		<!-- rfn3 -->
 		<dict>
 			<key>match</key>
-			<string>\b(rfn3|append|bind|bitwise_and|bitwise_or|ceil|cmp|contains|copy|days_from_now|decorate|default|dump_env|enable_wss|enumerate|exp|floor|fork|format_float|format_int|hidden_escape|html_escape|import|int|internal_dump|isnull|items|join|json2pub|json_escape|keys|len|list|log|logwarn|lookup|map|match|now|okws_version_int|okws_version_str|pop_front|pow|rand|randsel|range|replace|reverse|round|search|sha1|shotgun|shuffle|sleep|sort|splice|split|sqrt|str|strip|strptime|substr|tag_escape|time_format|time_from_now|tolower|toupper|type|unbind|url_escape|url_unescape|utf8_fix|values|version_int|version_str|warn|warn_trace|wss_filter|bit_set|br_to_newline|commaify|get_exp_group|json_uber_filter|json_uber_lite|money|newline_to_br|pluralize|regex_replace|remove_brackets_amp|sfs_hash|strip_html|strip_html_dutil|strip_newline|tidy|unescape_html_entities|utf8_fix)\b</string>
+			<string>\b(append|bind|bitwise_and|bitwise_leftshift|bitwise_or|bitwise_rightshift|bitwise_xor|breadcrumb|ceil|cmp|cmp_float|contains|copy|days_from_now|decorate|default|documentation|dump_env|enable_wss|enumerate|eval_location|exp|floor|fork|format_float|format_int|hidden_escape|html_escape|import|index_of|int|internal_dump|isnull|items|join|json2pub|json_escape|keys|len|list|localtime|log|logwarn|lookup|map|match|now|okws_version_int|okws_version_str|pop_front|pow|rand|randsel|range|raw|remove|replace|reverse|round|search|sha1|shotgun|shuffle|sleep|sort|sort2|splice|split|split2|sqrt|stat_file|str|strip|strptime|substr|tag_escape|time_format|time_from_now|tolower|toupper|type|uint|unbind|url_escape|url_unescape|utf8_fix|values|version_int|version_str|warn|warn_trace|wss_filter)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
-		<!-- Additonal functions -->
+		<!-- okclib -->
 		<dict>
 			<key>match</key>
-			<string>\b(auto_login_link|get_ip_info|get_uber|http_get)\b</string>
+			<string>\b(aliasify|bit_set|br_to_newline|cents_to_dollars|commaify|debug|float|get_distance|get_exp_group|gum_hex|hash_password|hex|is_cupid_ip|is_staff|jsmin|json_uber_filter|json_uber_filter_lite|json_uber_lite|money|name_to_id|newline_to_br|pluralize|regex_replace|regexp_replace|remove_brackets_amp|sfs_hash|strip_html|strip_html_dutil|strip_html_preserve_brs|strip_newline|tidy|unescape_html_entities|utf8_fix)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
-		<!-- Events functions -->
+		<!-- modlib -->
 		<dict>
 			<key>match</key>
-			<string>\b(cancelSeats|closeJournalEntry|confirmExtraGuests|confirmSeats|freeExtraGuests|freeSeats|getBestEvents|getCashedTransactionsByEventid|getEventInfo|getEventJournalEntries|getEventsInfo|getLastNJournalEntries|getMembershipInfo|getStaleJournalEntries|getUserEventids|lockSeats|refundPayment|reserveExtraGuests|reserveSeats)\b</string>
+			<string>\b(armor64|auto_login_link|check_authdata|config_object|dearmor64|email_notifications_types|filter_user_lazy|filter_wiw|filter_wiw_reciprocal|generate_new_quivers|get_first_contact_time|get_gns_queue|get_gns_queues|get_ip_info|get_match_filters|get_match_percentages|get_quiver_excludes|get_quiver_filters|get_quiver_matches|get_uber|get_ubers|get_user_rating|gns_inject_email|gns_lookup_emails_for_pair|gns_lookup_emails_for_receiver|gns_lookup_emails_for_sender|gns_reset|gum_get_ps|id_to_name|im_filter|make_authdata|modify_uidal|other_settings|pubAndSend3|pubAndSend4|screenname_check|sookie_hash|sookie_load|sookie_update|superfilter|unsub_link|verify_password)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<!-- sharedlib -->
+		<dict>
+			<key>match</key>
+			<string>\b(dsdc_get|dsdc_put|dsdl_acquire|dsdl_release|get_experiment_group|gm_time_format|http_get|okwsmstime|okwstsnow|updateStats)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<!-- okevents -->
+		<dict>
+			<key>match</key>
+			<string>\b(getBestEvents|getCashedTransactions|getCashedTransactionsByEventid|getEventInfo|getEventJournalEntries|getEventsInfo|getLastNJournalEntries|getMembershipInfo|getStaleJournalEntries|getUserEventids)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<!-- devicelib -->
+		<dict>
+			<key>match</key>
+			<string>\b(pub_and_send_push)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<!-- msglib -->
+		<dict>
+			<key>match</key>
+			<string>\b(is_mbox_full)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<!-- uberlib -->
+		<dict>
+			<key>match</key>
+			<string>\b(armor64|put_uber_int_attribute|put_uber_misc_bit|put_uber_string_attribute)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<!-- moneylib -->
+		<dict>
+			<key>match</key>
+			<string>\b(addCustomer|captureTransaction|deleteCustomer|getBillingInfo|money_errors|refundTransaction|runCustomerTransaction|types|updateCustomer|usaepay_host|voidTransaction)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<!-- okmail -->
+		<dict>
+			<key>match</key>
+			<string>\b(armor64)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
