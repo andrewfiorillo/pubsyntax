@@ -44,6 +44,20 @@
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
+		<!-- Additonal functions -->
+		<dict>
+			<key>match</key>
+			<string>\b(auto_login_link|get_ip_info|get_uber|http_get)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<!-- Events functions -->
+		<dict>
+			<key>match</key>
+			<string>\b(cancelSeats|closeJournalEntry|confirmExtraGuests|confirmSeats|freeExtraGuests|freeSeats|getBestEvents|getCashedTransactionsByEventid|getEventInfo|getEventJournalEntries|getEventsInfo|getLastNJournalEntries|getMembershipInfo|getStaleJournalEntries|getUserEventids|lockSeats|refundPayment|reserveExtraGuests|reserveSeats)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
 		<dict>
 			<key>begin</key>
 			<string>/\*</string>
