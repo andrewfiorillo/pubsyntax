@@ -745,6 +745,18 @@
 					<string>#comment-block</string>
 				</dict>
 				<dict>
+					<key>include</key>
+					<string>#pub</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#pubvar</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#pubcomment</string>
+				</dict>
+				<dict>
 					<key>begin</key>
 					<string>(?&lt;![-a-z])(?=[-a-z])</string>
 					<key>end</key>
